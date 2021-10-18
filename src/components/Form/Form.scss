@@ -1,0 +1,23 @@
+.form {
+  display: block;
+
+  &__label {
+    width: 45%;
+
+    &--mg {
+      margin-bottom: 20px;
+    }
+  }
+}
+
+.success-input {
+  color: green;
+}
+
+.invalid-input {
+  color: red;
+}
+
+.button-form {
+  display: block;
+}

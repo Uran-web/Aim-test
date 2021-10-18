@@ -1,0 +1,50 @@
+.card-description {
+  display: flex;
+  align-items: center;
+}
+
+.card-text--mg {
+  margin: 0;
+  padding-right: 5px;
+}
+
+.rating {
+  display: flex;
+  align-items: flex-end;
+  font-size: 18px;
+  line-height: 18px;
+
+  &__body {
+    position: relative;
+  }
+
+  &__body--1::before {
+    content: "★";
+    display: block;
+    color: rgb(197, 66, 103);
+  }
+
+  &__body--2::before {
+    content: "★★";
+    display: block;
+    color: rgb(197, 66, 103);
+  }
+
+  &__body--3::before {
+    content: "★★★";
+    display: block;
+    color: rgb(197, 66, 103);
+  }
+
+  &__body--4::before {
+    content: "★★★★";
+    display: block;
+    color: rgb(197, 66, 103);
+  }
+
+  &__body--5::before {
+    content: "★★★★★";
+    display: block;
+    color: rgb(197, 66, 103);
+  }
+}
