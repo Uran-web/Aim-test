@@ -22,5 +22,5 @@
   },
   "include": [
     "src"
-, "src/data", "index.tsx"  ]
+, "src/data", "src/index.tsx"  ]
 }
